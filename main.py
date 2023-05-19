@@ -520,7 +520,7 @@ class Appointment_Window(ctk.CTkFrame):
             specialization = specialization.split()
             specialization = list(set(specialization))
             specialization_menu.configure(values=specialization)
-            choice_frame.unbind("<Enter>")
+            # choice_frame.unbind("<Enter>")
             return
 
         def spec_callback(specialization_menu: str):
